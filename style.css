@@ -832,6 +832,9 @@ justify-content: space-between;
     display: flex;
     align-items: center;
     width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+    
  }
  #blog .blog-img{
 width: 50% ;
@@ -879,4 +882,5 @@ margin-right: 40px;
     font-size: 70px;
     font-weight: 700;
     color: #c9cbce;
+    z-index: -9;
  }
