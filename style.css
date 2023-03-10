@@ -586,7 +586,7 @@ footer .copyright{
         right: -0px;
     }
 
-
+ 
 
     #navbar li{
         margin-bottom: 25px;
@@ -734,6 +734,7 @@ footer .copyright{
             width: 100%;
            
         }
+       
         
  }  
  /*shop page*/
@@ -884,3 +885,52 @@ margin-right: 40px;
     color: #c9cbce;
     z-index: -9;
  }
+
+@media (max-width: 477px) {
+    .section-p1 {
+        padding: 20px;
+    }
+    #header {
+       padding: 10px 30px;
+    }
+    #hero {
+       padding: 0 20px;
+       background-position: 55%;
+    }
+  
+    
+    h2 {
+        font-size: 32px;
+        
+    }h1 {
+        font-size: 38px;
+        
+    }
+    #feature{
+        justify-content: space-between;
+    }
+    #feature .fe-box {
+        width: 155px;
+      
+        margin:0 0 15px 0;
+    }
+    #blog {
+    
+        padding: 100px 20px 0 20px;
+    
+    }
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       
+    }
+    #blog .blog-img {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    }
+    #blog .blog-details {
+    width: 100%;
+    }
+}
